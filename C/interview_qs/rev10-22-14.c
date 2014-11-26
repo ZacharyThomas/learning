@@ -3,7 +3,11 @@
 #define EOL '\0'
 int main(int argc, char* argv[])
 {
+<<<<<<< HEAD
 if (argc != 2)
+=======
+if (argc < 2)
+>>>>>>> 9d3f1d39c1e1a7f9fe7a4bff74451ec788273118
 {
 	printf("Usage: rev.c stringname\n");
 	return 0;
