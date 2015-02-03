@@ -77,6 +77,12 @@ int main(int argc, char **argv)
     }
   // Convert to long now that we're sure it's an integer
   long intVal = strtol(argv[1], NULL, 10);
+  if (intVal == 0) 
+    {
+      printf("%d \n", intVal);
+      return;
+    }
+  else if (intVal < 0)  usage();
   // Convert decimal to base 2
   int resultVal = base10to2(intVal);
   printf("%d \n", resultVal);
