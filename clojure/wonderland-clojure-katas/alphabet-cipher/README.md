@@ -3,8 +3,6 @@
 Lewis Carroll published a cipher known as
 [The Alphabet Cipher](http://en.wikipedia.org/wiki/The_Alphabet_Cipher)
 
-![Letter](/images/fishfrogletter.gif)
-
 This Alphabet Cipher involves alphabet substitution using a keyword.
 
 First you must make a substitution chart like this, where each row of
